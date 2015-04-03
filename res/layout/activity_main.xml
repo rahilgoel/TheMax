@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Have 0 RS"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tvDisplay"
+        
+         /> 
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One RS coin"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+           android:id="@+id/tvDisplay1"
+        
+         />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add One"
+        android:layout_gravity="center"
+        android:gravity="center"
+            android:id="@+id/bAdd1"
+        />
+          <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Subtract One"
+        android:layout_gravity="center"
+        android:gravity="center"
+            android:id="@+id/bSub1"
+        />
+                 <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two RS coin"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+          android:id="@+id/tvDisplay2"
+        
+         />
+         <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add Two"
+        android:layout_gravity="center"
+        android:gravity="center"
+         android:id="@+id/bAdd2"
+        />
+          <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Subtract Two"
+        android:layout_gravity="center"
+        android:gravity="center"
+         android:id="@+id/bSub2"
+        />
+                   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Five RS coin"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+          android:id="@+id/tvDisplay5"
+        
+         />
+                      <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add Five"
+        android:layout_gravity="center"
+        android:gravity="center"
+         android:id="@+id/bAdd5"
+        />
+          <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Subtract Five"
+        android:layout_gravity="center"
+        android:gravity="center"
+         android:id="@+id/bSub5"
+        
+        />
+
+
+ 
+</LinearLayout>
